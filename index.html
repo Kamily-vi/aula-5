@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Fulbank</title>
+</head>
+<body>
+    <form method="POST" action="viagem.php">
+        <h1>CALCULAR FRETE</h1>
+        <label for="nome" >Nome:</label>
+        <input id="nome" name="nome" required/>
+ 
+        <label for="salario">Salário:</label>
+        <input id="salario" name="salario" required/>
+ 
+        <label for="genero">
+            Gênero
+        <input type="radio" name="genero" value="feminino">Feminino<br>
+        <input type="radio" name="genero" value="masculino">Masculino<br>
+        </label>
+
+        <label>
+            <span>Cargos</span>
+         <select name="linguagem">
+            <option value="selecione" selected>Selecione:</option>
+            <option value="Java">Java</option>
+            <option value="PHP">PHP</option>
+            <option value="NodeJS">NodeJS</option>
+            <option value="C#">C#</option>
+            <option value="Ruby">Ruby</option>
+          </select>
+       </label>
+
+
+        <button>Total</button>
+
+</body>
+</html>
